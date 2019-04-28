@@ -22,10 +22,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
-	"github.com/jacobsa/syncutil"
+	"github.com/jimmyyan/fuse"
+	"github.com/jimmyyan/fuse/fuseops"
+	"github.com/jimmyyan/fuse/fuseutil"
+	"github.com/jimmyyan/syncutil"
 )
 
 const (

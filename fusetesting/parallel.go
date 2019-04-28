@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	. "github.com/jacobsa/ogletest"
-	"github.com/jacobsa/syncutil"
+	. "github.com/jimmyyan/ogletest"
+	"github.com/jimmyyan/syncutil"
 )
 
 // Run an ogletest test that checks expectations for parallel calls to open(2)

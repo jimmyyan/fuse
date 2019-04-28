@@ -26,11 +26,11 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/statfs"
-	. "github.com/jacobsa/ogletest"
+	"github.com/jimmyyan/fuse/fuseops"
+	"github.com/jimmyyan/fuse/fuseutil"
+	"github.com/jimmyyan/fuse/samples"
+	"github.com/jimmyyan/fuse/samples/statfs"
+	. "github.com/jimmyyan/ogletest"
 )
 
 func TestStatFS(t *testing.T) { RunTests(t) }

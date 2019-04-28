@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
+	"github.com/jimmyyan/fuse/fuseops"
+	"github.com/jimmyyan/fuse/fuseutil"
 )
 
 // Common attributes for files and directories.

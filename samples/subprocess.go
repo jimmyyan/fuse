@@ -27,7 +27,7 @@ import (
 	"path"
 	"sync"
 
-	"github.com/jacobsa/ogletest"
+	"github.com/jimmyyan/ogletest"
 )
 
 var fToolPath = flag.String(
@@ -110,7 +110,7 @@ func getToolContentsImpl() (contents []byte, err error) {
 		"build",
 		"-o",
 		toolPath,
-		"github.com/jacobsa/fuse/samples/mount_sample")
+		"github.com/jimmyyan/fuse/samples/mount_sample")
 
 	output, err := cmd.CombinedOutput()
 	if err != nil {

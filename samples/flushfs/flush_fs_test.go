@@ -30,11 +30,11 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/jacobsa/fuse/fsutil"
-	"github.com/jacobsa/fuse/fusetesting"
-	"github.com/jacobsa/fuse/samples"
-	. "github.com/jacobsa/oglematchers"
-	. "github.com/jacobsa/ogletest"
+	"github.com/jimmyyan/fuse/fsutil"
+	"github.com/jimmyyan/fuse/fusetesting"
+	"github.com/jimmyyan/fuse/samples"
+	. "github.com/jimmyyan/oglematchers"
+	. "github.com/jimmyyan/ogletest"
 )
 
 func TestFlushFS(t *testing.T) { RunTests(t) }

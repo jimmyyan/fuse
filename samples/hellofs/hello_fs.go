@@ -20,10 +20,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
-	"github.com/jacobsa/timeutil"
+	"github.com/jimmyyan/fuse"
+	"github.com/jimmyyan/fuse/fuseops"
+	"github.com/jimmyyan/fuse/fuseutil"
+	"github.com/jimmyyan/timeutil"
 )
 
 // Create a file system with a fixed structure that looks like this:

@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fusetesting"
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/memfs"
-	. "github.com/jacobsa/oglematchers"
-	. "github.com/jacobsa/ogletest"
+	"github.com/jimmyyan/fuse"
+	"github.com/jimmyyan/fuse/fusetesting"
+	"github.com/jimmyyan/fuse/samples"
+	"github.com/jimmyyan/fuse/samples/memfs"
+	. "github.com/jimmyyan/oglematchers"
+	. "github.com/jimmyyan/ogletest"
 	"github.com/kahing/go-xattr"
 )
 
@@ -78,7 +78,7 @@ func currentGid() uint32 {
 
 // Transform the supplied mode by the current umask.
 func applyUmask(m os.FileMode) os.FileMode {
-	// HACK(jacobsa): Use umask(2) to change and restore the umask in order to
+	// HACK(jimmyyan): Use umask(2) to change and restore the umask in order to
 	// figure out what the mask is. See the listing in `man getumask`.
 	umask := syscall.Umask(0)
 	syscall.Umask(umask)

@@ -22,12 +22,12 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/errorfs"
-	. "github.com/jacobsa/oglematchers"
-	. "github.com/jacobsa/ogletest"
+	"github.com/jimmyyan/fuse/fuseops"
+	"github.com/jimmyyan/fuse/fuseutil"
+	"github.com/jimmyyan/fuse/samples"
+	"github.com/jimmyyan/fuse/samples/errorfs"
+	. "github.com/jimmyyan/oglematchers"
+	. "github.com/jimmyyan/ogletest"
 )
 
 func TestErrorFS(t *testing.T) { RunTests(t) }

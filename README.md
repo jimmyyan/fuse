@@ -23,8 +23,8 @@ and tests.
 This package owes its inspiration and most of its kernel-related code to
 [bazil.org/fuse][bazil].
 
-[fuse]: http://godoc.org/github.com/jacobsa/fuse
-[fuseops]: http://godoc.org/github.com/jacobsa/fuse/fuseops
-[fuseutil]: http://godoc.org/github.com/jacobsa/fuse/fuseutil
-[samples]: http://godoc.org/github.com/jacobsa/fuse/samples
+[fuse]: http://godoc.org/github.com/jimmyyan/fuse
+[fuseops]: http://godoc.org/github.com/jimmyyan/fuse/fuseops
+[fuseutil]: http://godoc.org/github.com/jimmyyan/fuse/fuseutil
+[samples]: http://godoc.org/github.com/jimmyyan/fuse/samples
 [bazil]: http://godoc.org/bazil.org/fuse
