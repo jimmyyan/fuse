@@ -19,7 +19,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/jfuse/internal/fusekernel"
+	"github.com/jimmyyan/fuse/internal/fusekernel"
 )
 
 // InodeID is a 64-bit number used to uniquely identify a file or directory in
