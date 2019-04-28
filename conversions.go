@@ -174,6 +174,7 @@ func convertInMessage(
 			Parent: fuseops.InodeID(inMsg.Header().Nodeid),
 			Name:   string(name),
 			Mode:   convertFileMode(in.Mode),
+                        Flags:  in.Flags,
 		}
 
 	case fusekernel.OpSymlink:
@@ -255,8 +256,11 @@ func convertInMessage(
 		}
 
 	case fusekernel.OpOpen:
-		o = &fuseops.OpenFileOp{
-			Inode: fuseops.InodeID(inMsg.Header().Nodeid),
+                in := (*fusekernel.OpenIn)(inMsg.Consume(unsafe.Sizeof(fusekernel.OpenIn{})))
+		fmt.Println("openin ", in)
+                o = &fuseops.OpenFileOp{
+			Inode: fuseops.InodeID(inMsg.Header().Nodeid), 
+                        Flags: in.Flags,
 		}
 
 	case fusekernel.OpOpendir:
